@@ -1,0 +1,29 @@
+body {
+    font-family: Lucida Console, Courier, monospace;
+    background-color: #F1F0F1;
+}
+h1, h2 {
+    text-align: center;
+    color: #00899F;
+}
+
+table {
+    margin: auto; 
+    table-layout: fixed;
+    width: 60%;  
+    background-color: #ffffff;
+}
+th {
+    text-align: center;
+    color: #ED6A00;
+}
+table {
+    border: 1px solid black;
+    
+}
+table, td, th {
+    padding: 5px;
+}
+th, tr:nth-child(even) {
+    background-color: #F1F1F1;
+}
